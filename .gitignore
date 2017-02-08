@@ -1,0 +1,8 @@
+## In a real situation, we would be sure to exclude the content of the keys directory.
+## In this example, we've checked in the deploy keys so that you can try it out
+## for yourself.
+# keys/*
+
+# This is the file we use to break Docker layer caching.
+# It does not need to be in the git repo.
+version
