@@ -6,6 +6,10 @@ The GitHub repo being cloned into the Docker image at build time is https://gith
 
 See [GitHub Credentials Management](https://confluence.cornell.edu/display/CLOUD/GitHub+Credentials+Management) for how this fits into a larger git credentials management scheme.
 
+## Caution!
+
+Be aware that the contents of the `/keys/` directory is present in intermediate layers of the Docker image. This means that, with proper knowhow, a bad guy could root out the contents of the `/keys` file from the final image.
+
 ## Run the example
 
 The main point here is to show how a [Dockerfile](Dockerfile) can be used to clone a private GitHub repo that has a deploy key configured for it.
