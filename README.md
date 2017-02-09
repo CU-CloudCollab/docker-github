@@ -8,7 +8,7 @@ See [GitHub Credentials Management](https://confluence.cornell.edu/display/CLOUD
 
 ## Caution!
 
-Be aware that the contents of the `/keys/` directory is present in intermediate layers of the Docker image. This means that, with proper knowhow, a bad guy could root out the contents of the `/keys` file from the final image.
+Be aware that the contents of the `/keys` directory is present in intermediate layers of the Docker image. This means that, with proper knowhow, a bad guy could root out the contents of the `/keys` directory from the final image.
 
 ## Run the example
 
